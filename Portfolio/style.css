@@ -1,0 +1,54 @@
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+nav{
+    background:#333;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    padding:50px;
+    text-align:center;
+}
+
+img{
+    width:200px;
+    border-radius:50%;
+}
+
+.skill{
+    display:inline-block;
+    background:lightblue;
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.project{
+    border:1px solid gray;
+    padding:20px;
+    margin:20px;
+}
+.resume-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
